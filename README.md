@@ -14,7 +14,7 @@ The code is written in python and depends on few publicly available packages:
 
 To run the script, just type
 
-    python GGSL_cs_computation.py --input <input file.fits>
+    python GGSLcalculator.py --input <input file.fits>
     
 The input file must be in fits format. It contains the maps of the two components of the lens deflection angle. The two maps are stored in separe HDUs. Lens and source redshifts must be changed in the script according to the input deflection angle map (keywords zl and zs).
 
